@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent{
+	    label 'goku'
+    }
     stages{
         stage('Build'){
             steps{
